@@ -1,4 +1,3 @@
-/* Tudor George Alexandru - 334CC */
 %{
     #include <iostream>
     #include <string>
