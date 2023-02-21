@@ -49,4 +49,4 @@ There are 3 important states:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* TAG_IN_TAG_IN_DIV - if another tag is found in a tag inside div<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* VOID_IN_TAG_IN_TAG_IN_DIV - if a void element is found inside another tag inside div<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- the difference between these states and those specific to TAG_IN_BODY is that here I need to store both the tags found and their attributes<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- n TAG_IN_TAG_IN_DIV, I stay until the value of the variable (where I store how many tags have been opened) is 0, meaning that all tags inside a tag in div have been closed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- in TAG_IN_TAG_IN_DIV, I stay until the value of the variable (where I store how many tags have been opened) is 0, meaning that all tags inside a tag in div have been closed<br>
