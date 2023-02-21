@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplu de cod HTML</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 48px;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    th {
+      border: 1px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+
+    td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .box {
+      background-color: white;
+      width: 30%;
+      height: 50%;
+      border: 2px solid black;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+  </style>
+</head>
+
+<body>
+    <h1>Titlu principal</h1>
+  <p>Acesta este un exemplu de cod HTML complex care contine multe elemente si etichete diferite..</p>
+
+  <table>
+    <tr>
+      <th>Nume</th>
+      <th>Prenume</th>
+      <th>Varsta</th>
+      <th>Gen</th>
+    </tr>
+    <tr>
+      <td>Ion</td>
+      <td>Popescu</td>
+      <td>35</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>Maria</td>
+      <td>Ionescu</td>
+      <td>30</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>Alex</td>
+      <td>Vasile</td>
+      <td>40</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>Matei</td>
+      <td>25</td>
+      <td>F</td>
+    </tr>
+  </table>
+
+  <div class="container">
+    <h2>Box 1</h2>
+    <p>Acesta este conținutul box-ului 1.</p>
+    <br>
+    <img src="image1.jpg" alt="Imagine 1">
+    <br><br>
+    <a href="https://www.example.com">Link către exemplu</a>
+    <br><br>
+    <button>Buton</button>
+    <br><br>
+    <form>
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume">
+      <br>
+      <label for="prenume">Prenume:</label>
+      <input type="text" id="prenume" name="prenume">
+      <br>
+      <input type="submit" value="Trimite">
+    </form>
+  </div>
+
+  <div class="box">
+    <h2>Box 2</h2>
+    <p>Acesta este conținutul box-ului 2.</p>
+    <br>
+    <img src="image2.jpg" alt="Imagine 2">
+    <br><br>
+    <a href="https://www.example.com">Link către exemplu</a>
+    <br><br>
+    <button>Buton</button>
+    <br><br>
+    <ul>
+      <li>Elementul 1</li>
+      <li>Elementul 2</li>
+      <li>Elementul 3</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Box 3</h2>
+      <p>Acesta este conținutul box-ului 3.</p>
+      <br>
+      <img src="image3.jpg" alt="Imagine 3">
+      <br><br>
+      <a href="https://www.example.com">Link către exemplu</a>
+      <br><br>
+      <button>Buton</button>
+      <br><br>
+      <table>
+        <tr>
+          <th>Nume</th>
+          <th>Prenume</th>
+          <th>Vârstă</th>
+          <th>Gen</th>
+        </tr>
+        <tr>
+          <td>Ion</td>
+          <td>Popescu</td>
+          <td>35</td>
+          <td>M</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>Ionescu</td>
+          <td>30</td>
+          <td>F</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container">
+      <h2>Box 4</h2>
+      <p>Acesta este conținutul box-ului 4.</p>
+      <br>
+      <img src="image4.jpg" alt="Imagine 4">
+      <br><br>
+      <a href="https://www.example.com">Link către exemplu</a>
+      <br><br>
+      <button>Buton</button>
+      <br><br>
+      <video src="video1.mp4" controls></video>
+      <br><br>
+      <audio src="audio1.mp3" controls></audio>
+    </div>
+
+    <div class="box">
+      <h2>Box 5</h2>
+      <p>Acesta este conținutul box-ului 5.</p>
+      <br>
+      <img src="image5.jpg" alt="Imagine 5">
+      <br><br>
+      <a href="https://www.example.com">Link către exemplu</a>
+      <br><br>
+      <button>Buton</button>
+      <br><br>
+      <select>
+        <option value="valoare1">Valoarea 1</option>
+        <option value="valoare2">Valoarea 2</option>
+        <option value="valoare3">Valoarea 3</option>
+      </select>
+      <br><br>
+      <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+      <label for="checkbox1">Checkbox 1</label>
+      <br>
+      <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+      <label for="checkbox2">Checkbox 2</label>
+    </div>
+
+      <img src="image6.jpg" alt="Imagine 6">
+      <br><br>
+      <a href="https://www.example.com">Link către exemplu</a>
+      <br><br>
+      <button>Buton</button>
+      <br><br>
+      <input type="radio" id="radio1" name="radio" value="radio1">
+      <label for="radio1">Radio 1</label>
+      <br>
+      <input type="radio" id="radio2" name="radio" value="radio2">
+      <label for="radio2">Radio 2</label>
+      <br>
+      <input type="radio" id="radio3" name="radio" value="radio3">
+      <label for="radio3">Radio 3</label>
+</body>
+</html>
