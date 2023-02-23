@@ -1,5 +1,6 @@
 # HTML-File-Analyzer
 
+
 <p align="justify">
 Consider an input file in HTML format. After running the program, information about the following will be displayed:
 </p>
